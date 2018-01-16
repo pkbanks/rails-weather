@@ -23,5 +23,5 @@ test:
 production:
   <<: *default
   database: weather_production
-  username: pkbanks
-  password: <%= ENV['password'] %>
+  # username: pkbanks
+  # password: <%= ENV['password'] %>
